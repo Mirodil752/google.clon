@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.apps {
+    width: 18px;
+    height: 18px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Google_Material_Icons-Apps.svg');
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.sign-in {
+    background-color: #8ab4f8;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #303134;
+    border-radius: 25px;
+    padding: 12px 15px;
+    width: 500px;
+    max-width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid #5f6368;
+}
+
+.search-box input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.mic, .lens {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.mic {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Google_mic.svg/2048px-Google_mic.svg.png');
+}
+
+.lens {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Google_Lens_Icon.svg/2048px-Google_Lens_Icon.svg.png');
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons input,
+.buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #303134;
+    color: white;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.buttons input:hover,
+.buttons button:hover {
+    background-color: #3c4043;
+    border: 1px solid #5f6368;
+}
+
+/* Language Links */
+.language {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.language a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+  
+  
+
+
